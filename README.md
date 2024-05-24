@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+***Transaction Dashboard***
+Deployed Link - https://roxilerdashboard-frontend.onrender.com/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+*NOTE* - When we just open the website the backend will take upto 50 to 60 seconds to load for first API call as it is deployed on render free tier.
 
-## Available Scripts
+This is a React-based web application that allows users to view and analyze transaction data. The application fetches data from a backend API and displays it in a user-friendly format, including tables, charts, and statistics.
 
-In the project directory, you can run:
 
-### `npm start`
+*Features*
+Transaction Table: Displays a list of transactions with pagination and search functionality.
+Month Selection: Users can select a specific month to view transactions for that period.
+Search: Users can search for transactions based on product title, description, or price.
+Statistics: Displays statistical information about the transactions, such as total revenue, total products sold, and average price.
+Bar Chart: Visualizes the total revenue and products sold per month.
+Pie Chart: Visualizes the percentage contribution of each product category to the total revenue.
+Toaster Messages: Displays success or error messages when fetching data from the API.
+Loader: Shows a loading spinner while data is being fetched from the API.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+*Technologies Used*
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+*Frontend*
 
-### `npm test`
+React: A JavaScript library for building user interfaces.
+Tailwind CSS: A utility-first CSS framework for styling the application.
+Axios: A promise-based HTTP client for making API requests.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+*Backend*
 
-### `npm run build`
+Node.js: A JavaScript runtime for building server-side applications.
+Express.js: A minimal and flexible Node.js web application framework.
+MongoDB: A NoSQL database for storing transaction data.
+Mongoose: An Object Data Modeling (ODM) library for MongoDB and Node.js.
+Cors: A Node.js middleware for providing a Connect/Express middleware that can be used to enable CORS with various options.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+*Deployment*
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Both backend and frontend are deployed on render.
