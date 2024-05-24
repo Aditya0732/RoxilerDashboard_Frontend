@@ -8,12 +8,19 @@ This is a React-based web application that allows users to view and analyze tran
 
 *Features*
 Transaction Table: Displays a list of transactions with pagination and search functionality.
+
 Month Selection: Users can select a specific month to view transactions for that period.
+
 Search: Users can search for transactions based on product title, description, or price.
+
 Statistics: Displays statistical information about the transactions, such as total revenue, total products sold, and average price.
-Bar Chart: Visualizes the total revenue and products sold per month.
-Pie Chart: Visualizes the percentage contribution of each product category to the total revenue.
+
+Bar Chart: Visualizes the total revenue and products sold per month.Used react-chartjs-2 package.
+
+Pie Chart: Visualizes the percentage contribution of each product category to the total revenue.Used react-chartjs-2 package.
+
 Toaster Messages: Displays success or error messages when fetching data from the API.
+
 Loader: Shows a loading spinner while data is being fetched from the API.
 
 *Technologies Used*
