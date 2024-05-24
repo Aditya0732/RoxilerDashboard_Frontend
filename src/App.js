@@ -23,7 +23,7 @@ const App = () => {
     const fetchData = async () => {
       try {
         setIsLoading(true);
-        const response = await axios.get(`http://localhost:3000/api/combined?month=${month}&search=${search}&page=${currentPage}`);
+        const response = await axios.get(`https://roxilerdashboard-backend.onrender.com/api/combined?month=${month}&search=${search}&page=${currentPage}`);
         setSuccessMessage('Data fetched successfully!');
         const { products, statistics, barChartData, pieChartData } = response?.data;
         console.log(response?.data);
